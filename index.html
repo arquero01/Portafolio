@@ -1,68 +1,329 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mi Portfolio</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <header id="header">
-            <h1>Mi Portfolio</h1>
-        </header>
-        <main>
-            <section id="Presentación">
-                <img src="img/foto-perfil.jpeg" alt="Mi Foto" class="foto-perfil">
-                <div class="presentacion-texto">
-                    <h2>Hola Soy William Maltes</h2>
-                    <p>Soy un persona apasionaada por la tecnología y el aprendizaje continuo. Actualmente estoy estudiando Ingeniera de Sistemas en la Universidad Santiago de Cali.</p>
-                </div>
-            </section>
-            <section id="historial-academico">
-                <h2>Historial Académico</h2>
-                <div class="item-academico">
-                    <h3>Colegio</h3>
-                    <p class="institucion">Liceo Porvenir</p>
-                    <p class="fecha">2010 - 2020</p>
-                </div>
-                <div class="item-academico">
-                    <h3>Ingeniería de Sistemas</h3>
-                    <p class="institucion">Universidad Santiago de Cali</p>
-                    <p class="fecha">2022 - Presente</p>
-                </div>
-            </section>
-            <section id="proyectos">
-                <h2>Proyectos</h2>
-                <form id="form-proyectos">
-                    <input type="text" id="input-titulo" placeholder="Título del proyecto" required>
-                    <input type="text" id="input-descripcion" placeholder="Descripción del proyecto" required>
-                    <input type="text" id="input-link" placeholder="Enlace del proyecto">
-                    <button type="submit">Agregar Proyecto</button>
-                </form>
-                <div id="lista-proyectos">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio profesional de William Maltes, estudiante de Ingeniería de Sistemas."
+    />
+    <meta name="author" content="William Maltes" />
 
-                </div>
-            </section>
-            <section id="historial-laboral">
-                <h2>Historial Laboral</h2>
+    <title>William Maltes | Portafolio</title>
 
-                <div class="item-laboral">
-                <h3>Auxiliar de logistica - EG&T</h3>
-                <p class="fecha">Julios 2026 - Presente</p>
-                <p>Auxiliar de Logística: Apoyo en la recepción, almacenamiento, organización y despacho de materiales y equipos utilizados en proyectos de energía renovable y sostenible. Control de inventarios, preparación de pedidos y coordinación de entregas, garantizando el manejo adecuado de los recursos y el cumplimiento de los procesos logísticos de la empresa.</p>
-                </div>
+<link rel="stylesheet" href="css/styles.css">
 
-                <div class="item-laboral">
-                <h3>Adminitrador - Servicabinas</h3>
-                <p class="fecha">Marzo 2020 - Diciembre 2023</p>
-                <p>Administrador de Café Internet: Gestión de operaciones administrativas y comerciales, atención al cliente, manejo de caja, control de inventarios, compras y abastecimiento. Supervisión de equipos de cómputo, conectividad y mantenimiento básico, garantizando el buen funcionamiento del establecimiento.</p>
-                </div>
+</head><body><!-- ENCABEZADO -->
+<header id="header">
 
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2026 Mi Portfolio. Todos los derechos reservados.</p>
-        </footer>
-        <script src="js/script.js"></script>
-    </body>
+    <div class="header-contenido">
+        <h1>William Maltes</h1>
+        <p>Estudiante de Ingeniería de Sistemas</p>
+    </div>
+
+    <nav class="menu">
+        <a href="#presentacion">Inicio</a>
+        <a href="#historial-academico">Educación</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#historial-laboral">Experiencia</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <!-- PRESENTACIÓN -->
+    <section id="presentacion">
+
+        <img
+            src="img/foto-perfil.jpeg"
+            alt="Foto de perfil de William Maltes"
+            class="foto-perfil"
+        >
+
+        <div class="texto-presentacion">
+
+            <p class="saludo">¡Hola! Soy</p>
+
+            <h2>William Maltes</h2>
+
+            <h3>Estudiante de Ingeniería de Sistemas</h3>
+
+            <p>
+                Soy una persona apasionada por la tecnología y el aprendizaje
+                continuo. Actualmente estudio Ingeniería de Sistemas en la
+                Universidad Santiago de Cali, desarrollando conocimientos en
+                programación, tecnología y solución de problemas.
+            </p>
+
+            <div class="botones-presentacion">
+                <a href="#proyectos" class="boton">Ver proyectos</a>
+                <a href="#contacto" class="boton boton-secundario">Contactarme</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PERFIL -->
+    <section id="perfil">
+
+        <h2>Perfil Profesional</h2>
+
+        <div class="tarjeta">
+
+            <p>
+                Estudiante de Ingeniería de Sistemas con interés en el desarrollo
+                de soluciones tecnológicas, programación y administración de
+                sistemas. Me caracterizo por mi disposición para aprender,
+                capacidad de adaptación y compromiso con las actividades que
+                desarrollo.
+            </p>
+
+            <p>
+                Mi objetivo es continuar fortaleciendo mis conocimientos
+                técnicos y adquirir experiencia profesional en el área de
+                tecnología y desarrollo de software.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- HISTORIAL ACADÉMICO -->
+    <section id="historial-academico">
+
+        <h2>Historial Académico</h2>
+
+        <div class="item-academico">
+
+            <h3>Ingeniería de Sistemas</h3>
+
+            <p class="institucion">
+                Universidad Santiago de Cali
+            </p>
+
+            <p class="fecha">
+                2022 - Presente
+            </p>
+
+            <p>
+                Formación profesional enfocada en tecnología, programación,
+                sistemas de información y solución de problemas mediante
+                herramientas tecnológicas.
+            </p>
+
+        </div>
+
+
+        <div class="item-academico">
+
+            <h3>Educación Secundaria</h3>
+
+            <p class="institucion">
+                Liceo Porvenir
+            </p>
+
+            <p class="fecha">
+                2010 - 2020
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+
+        <h2>Habilidades</h2>
+
+        <div class="habilidades-grid">
+
+            <div class="habilidad">
+                <h3>💻 Tecnología</h3>
+                <p>
+                    Interés y formación en desarrollo de software,
+                    sistemas y herramientas tecnológicas.
+                </p>
+            </div>
+
+            <div class="habilidad">
+                <h3>🌐 Desarrollo Web</h3>
+                <p>
+                    Conocimientos en HTML, CSS y fundamentos
+                    de desarrollo web.
+                </p>
+            </div>
+
+            <div class="habilidad">
+                <h3>📦 Logística</h3>
+                <p>
+                    Organización de materiales, control de inventarios
+                    y apoyo en procesos logísticos.
+                </p>
+            </div>
+
+            <div class="habilidad">
+                <h3>🤝 Trabajo en equipo</h3>
+                <p>
+                    Capacidad de colaboración, comunicación y
+                    adaptación a diferentes entornos de trabajo.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+
+        <h2>Proyectos</h2>
+
+        <p class="texto-seccion">
+            Algunos proyectos y trabajos realizados durante mi formación.
+        </p>
+
+        <form id="form-proyectos">
+
+            <input
+                type="text"
+                id="input-titulo"
+                placeholder="Título del proyecto"
+                required
+            >
+
+            <input
+                type="text"
+                id="input-descripcion"
+                placeholder="Descripción del proyecto"
+                required
+            >
+
+            <input
+                type="url"
+                id="input-link"
+                placeholder="Enlace del proyecto"
+            >
+
+            <button type="submit">
+                Agregar Proyecto
+            </button>
+
+        </form>
+
+        <div id="lista-proyectos">
+
+            <!-- Los proyectos se agregan mediante JavaScript -->
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCIA LABORAL -->
+    <section id="historial-laboral">
+
+        <h2>Experiencia Laboral</h2>
+
+        <div class="item-laboral">
+
+            <h3>Auxiliar de Logística - EG&T</h3>
+
+            <p class="fecha">
+                Julio 2026 - Presente
+            </p>
+
+            <p>
+                Apoyo en la recepción, almacenamiento, organización y
+                despacho de materiales y equipos utilizados en proyectos
+                de energía renovable y sostenible. Control de inventarios,
+                preparación de pedidos y coordinación de entregas,
+                garantizando el manejo adecuado de los recursos y el
+                cumplimiento de los procesos logísticos de la empresa.
+            </p>
+
+        </div>
+
+
+        <div class="item-laboral">
+
+            <h3>Administrador - Servicabinas</h3>
+
+            <p class="fecha">
+                Marzo 2020 - Diciembre 2023
+            </p>
+
+            <p>
+                Gestión de operaciones administrativas y comerciales,
+                atención al cliente, manejo de caja, control de inventarios,
+                compras y abastecimiento. Supervisión de equipos de
+                cómputo, conectividad y mantenimiento básico, garantizando
+                el buen funcionamiento del establecimiento.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+
+        <h2>Contacto</h2>
+
+        <div class="contacto-contenido">
+
+            <p>
+                ¿Tienes un proyecto o quieres conocer más sobre mi perfil?
+                Puedes contactarme a través de los siguientes medios.
+            </p>
+
+            <div class="enlaces-contacto">
+
+                <a href="mailto:tu-correo@ejemplo.com">
+                    📧 Correo electrónico
+                </a>
+
+                <a href="https://github.com/" target="_blank">
+                    💻 GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/" target="_blank">
+                    🔗 LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- PIE DE PÁGINA -->
+<footer>
+
+    <p>
+        &copy; 2026 William Maltes. Todos los derechos reservados.
+    </p>
+
+    <p>
+        Portafolio desarrollado con HTML, CSS y JavaScript.
+    </p>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
 </html>
